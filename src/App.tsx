@@ -5,6 +5,7 @@ import NavBar from "./Components/Navbar/Navbar";
 import { SocialLinks } from "./Components/Socials/SocialLinks";
 import { AboutMe } from "./Components/About/AboutMe";
 import Footer from "./Components/Footer/Footer";
+import Resume from "./Components/Resume/Resume";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
               <Hero />
               <SocialLinks />
               <AboutMe />
+              <Resume />
             </div>
           }
         />

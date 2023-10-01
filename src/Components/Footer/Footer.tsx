@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/ranveer-shah333"
+                href="https://www.linkedin.com/in/ranveershah"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
