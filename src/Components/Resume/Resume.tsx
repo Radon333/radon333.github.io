@@ -30,7 +30,7 @@ const TimelineBlock: React.FC<TimelineBlockProps> = ({
 
 const Resume: React.FC = () => (
   <section id="resume" className={styles.thirdPage}>
-    <h4 className={styles.subtitle}>Work Experience</h4>
+    <h2 className={styles.subtitle}>Work Experience</h2>
     <div className={styles.container}>
       <TimelineBlock
         position="right"
@@ -76,7 +76,7 @@ const Resume: React.FC = () => (
 
       {/* Add other TimelineBlock components here */}
     </div>
-    <h4 className={styles.subtitle}>Education</h4>
+    <h2 className={styles.subtitle}>Education</h2>
     <div className={styles.container}>
       <TimelineBlock
         position="right"

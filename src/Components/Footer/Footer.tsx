@@ -25,6 +25,7 @@ const Footer: React.FC = () => {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -35,6 +36,7 @@ const Footer: React.FC = () => {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
@@ -45,6 +47,7 @@ const Footer: React.FC = () => {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Instagram"
               >
                 <AiFillInstagram />
               </a>
@@ -55,6 +58,7 @@ const Footer: React.FC = () => {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Email"
               >
                 <GrMail />
               </a>

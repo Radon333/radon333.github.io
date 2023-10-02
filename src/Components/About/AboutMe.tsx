@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./AboutMe.module.scss";
-import avatar from "../../assets/coding.gif";
+import avatar from "../../assets/coding.webp";
 import AboutContent from "../../assets/AboutMe.md";
 
 export const AboutMe: FunctionComponent = () => {
@@ -21,7 +21,7 @@ export const AboutMe: FunctionComponent = () => {
           <Col md={5}>
             <div className={styles.avatarContainer}>
               <div className={styles.avatar}>
-                <img src={avatar} />
+                <img src={avatar} alt="coding cat" height="auto" width="auto" />
               </div>
             </div>
           </Col>

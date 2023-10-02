@@ -40,6 +40,10 @@
 }
 
 .text a {
-  color: #58a6ff;
+  color: #1cd4c5ff;
   text-decoration: none;
+}
+
+.text a:hover {
+  text-decoration: underline;
 }

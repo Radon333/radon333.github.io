@@ -44,7 +44,7 @@ const socialLinks: SocialLinkData[] = [
 export const SocialLinks: FunctionComponent = () => {
   const socialLinksComponents = socialLinks.map(({ name, url, svg }) => (
     <div className={styles.col} key={name}>
-      <a href={url} target="_blank" className={styles.btn}>
+      <a href={url} target="_blank" className={styles.btn} aria-label="Socials">
         <span className={styles.btnIcon}>{svg}</span>
       </a>
     </div>
